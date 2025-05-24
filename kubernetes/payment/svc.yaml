@@ -19,5 +19,8 @@ spec:
       name: tcp-service
       targetPort: 8080
   selector:
-    
+  
     opentelemetry.io/name: opentelemetry-demo-paymentservice
+    app.kubernetes.io/instance: opentelemetry-demo
+    app.kubernetes.io/component: paymentservice
+    app.kubernetes.io/name: opentelemetry-demo-paymentservice

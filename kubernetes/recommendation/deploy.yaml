@@ -66,5 +66,5 @@ spec:
           resources:
             limits:
               memory: 500Mi
-          volumeMounts:
-      volumes:
+          #volumeMounts:
+      #volumes:

@@ -21,3 +21,6 @@ spec:
   selector:
     
     opentelemetry.io/name: opentelemetry-demo-shippingservice
+    app.kubernetes.io/instance: opentelemetry-demo
+    app.kubernetes.io/component: shippingservice
+    app.kubernetes.io/name: opentelemetry-demo-shippingservice
